@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest On Sneak Peek</title>
+    <link rel="icon" href="{{ url_for('static', filename='Images/favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/latest.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <style>
+        /* Existing CSS here */
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="home"><img src="/static/Images/1.png" alt="Logo"></a>
+            <!-- Replace with the path to your logo image -->
+        </div>
+        <div class="navbar-center">
+            <div class="navbar-links">
+                <a href="about">About</a>
+                <a href="home">Home</a>
+                <a href="blogs">Blogs</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Latest On Sneak Peek</h1>
+    </div>
+
+    <section class="article">
+        <div class="content">
+            
+            <h2>The New HotSpot in Bangalore</h2>
+            <p id="details">25th August 2024 | 5 min read</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti placeat assumenda veniam id consectetur vel eos est tenetur sunt maxime eaque sit, facere laborum deserunt eligendi dolores porro minima mollitia modi natus dolore at. Dicta architecto nobis, veritatis error illo ab dolore quo ducimus quam quis sapiente deleniti dolorum dignissimos amet commodi id consequatur iusto aliquid, nulla nesciunt. Ea ducimus ipsam et, reprehenderit vitae eos saepe mollitia totam quod praesentium illum eligendi eum corporis harum commodi deserunt labore eius? Quisquam temporibus harum necessitatibus illo reprehenderit beatae rem! Quidem culpa sunt totam quos cupiditate tempora id praesentium sit optio recusandae nobis repellat accusantium, saepe corrupti cumque libero hic illo sint voluptatum nemo, facere voluptate iste accusamus quas? Mollitia veritatis accusamus iusto, veniam nihil necessitatibus incidunt magni? Quam sunt provident quod numquam? Nam ea odit, id rerum non amet similique, eligendi totam modi sequi, officiis vitae recusandae vero doloribus laborum veritatis labore.</p>
+            <img src="/static/Images/culture.jpg" alt="">
+
+            <h2>What is everyone talking about?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti placeat assumenda veniam id consectetur vel eos est
+                tenetur sunt maxime eaque sit, facere laborum deserunt eligendi dolores porro minima mollitia modi natus dolore at.
+                Dicta architecto nobis, veritatis error illo ab dolore quo ducimus quam quis sapiente deleniti dolorum dignissimos
+                amet commodi id consequatur iusto aliquid, nulla nesciunt. Ea ducimus ipsam et, reprehenderit vitae eos saepe
+                mollitia totam quod praesentium illum eligendi eum corporis harum commodi deserunt labore eius? Quisquam temporibus
+                harum necessitatibus illo reprehenderit beatae rem! Quidem culpa sunt totam quos cupiditate tempora id praesentium
+                sit optio recusandae nobis repellat accusantium, saepe corrupti cumque libero hic illo sint voluptatum nemo, facere
+                voluptate iste accusamus quas? Mollitia veritatis accusamus iusto, veniam nihil necessitatibus incidunt magni? Quam
+                sunt provident quod numquam? Nam ea odit, id rerum non amet similique, eligendi totam modi sequi, officiis vitae
+                recusandae vero doloribus laborum veritatis labore.</p>
+
+        </div>
+    </section>
+</body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // GSAP animations
+            gsap.from('.navbar', { opacity: 0, y: -50, duration: 1, ease: 'power3.out' });
+            gsap.from('.container', { opacity: 0, y: 30, duration: 1, delay: 0.5, ease: 'power3.out' });
+            gsap.from('.article', { opacity: 0, y: 30, duration: 1, delay: 1, ease: 'power3.out' });
+            gsap.from('.article img', { opacity: 0, scale: 1.1, duration: 1, delay: 1.5, ease: 'power3.out' });
+        });
+    </script>
+</html>

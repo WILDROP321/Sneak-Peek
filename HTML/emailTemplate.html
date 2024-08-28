@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneak Peek ({{ article_issue }}) {{ article_date }}</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        img {
+            display: block;
+            border: 0;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            border: none;
+            background-color: #41bd48;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body
+    style="margin: 0; font-family: Arial, sans-serif; background-color: #161616; color: white; line-height: 1.6; max-width: 600px; margin: auto; box-sizing: border-box;">
+
+    <table role="presentation" width="100%" style="background-color: #161616;">
+        <tr>
+            <td style="text-align: center; padding: 20px;">
+                <img src="https://sneakwild.netlify.app/headerBanner.png" alt="Header Image"
+                    style="border-radius: 15px;">
+                <div style="color: #7e7f80;">Issue: {{ article_issue }}, Date: {{ article_date }}</div>
+            </td>
+        </tr>
+
+        <!-- Featured Content -->
+        <tr>
+            <td style="padding: 20px; background: rgba(0, 0, 0, 0.5); border-radius: 15px; color: white;">
+                <img src="{{ featured_image_url }}" alt="Featured Image" style="border-radius: 15px;">
+                <table role="presentation" width="100%"
+                    style="padding: 20px; background: rgba(0, 0, 0, 0.6); border-radius: 15px; color: white;">
+                    <tr>
+                        <td style="font-size: 1.2rem; font-weight: bold; color: #41bd48;">Featured This Week</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1.8rem; margin: 10px 0;">{{ featured_name }}</td>
+                    </tr>
+                    <tr>
+                        <td style="margin-bottom: 10px;">
+                            <p>{{ featured_content }}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <a href="{{ featured_link }}" class="button" target="_blank">Visit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1rem; color: #c0c2c4;">Rating: {{ featured_rating }}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Trending -->
+        <tr>
+            <td style="padding: 20px; background: rgba(0, 0, 0, 0.5); border-radius: 15px; color: white;">
+                <img src="{{ trending_image_url }}" alt="Trending Image" style="border-radius: 15px;">
+                <table role="presentation" width="100%"
+                    style="padding: 20px; background: rgba(0, 0, 0, 0.6); border-radius: 15px; color: white;">
+                    <tr>
+                        <td style="font-size: 1.2rem; font-weight: bold; color: #41bd48;">Trending</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1.8rem; margin: 10px 0;">{{ trending_name }}</td>
+                    </tr>
+                    <tr>
+                        <td style="margin-bottom: 10px;">
+                            <p>{{ trending_content }}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <a href="{{ trending_link }}" class="button" target="_blank">Visit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1rem; color: #c0c2c4;">Rating: {{ trending_rating }}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- New In Town -->
+        <tr>
+            <td style="padding: 20px; background: rgba(0, 0, 0, 0.5); border-radius: 15px; color: white;">
+                <img src="{{ new_in_town_image_url }}" alt="New In Town Image" style="border-radius: 15px;">
+                <table role="presentation" width="100%"
+                    style="padding: 20px; background: rgba(0, 0, 0, 0.6); border-radius: 15px; color: white;">
+                    <tr>
+                        <td style="font-size: 1.2rem; font-weight: bold; color: #41bd48;">New in Town</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1.8rem; margin: 10px 0;">{{ new_in_town_name }}</td>
+                    </tr>
+                    <tr>
+                        <td style="margin-bottom: 10px;">
+                            <p>{{ new_in_town_content }}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <a href="{{ new_in_town_link }}" class="button" target="_blank">Visit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1rem; color: #c0c2c4;">Rating: {{ new_in_town_rating }}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- It's a Date! -->
+        <tr>
+            <td style="padding: 20px; background: rgba(0, 0, 0, 0.5); border-radius: 15px; color: white;">
+                <img src="{{ date_image_url }}" alt="Date Image" style="border-radius: 15px;">
+                <table role="presentation" width="100%"
+                    style="padding: 20px; background: rgba(0, 0, 0, 0.6); border-radius: 15px; color: white;">
+                    <tr>
+                        <td style="font-size: 1.2rem; font-weight: bold; color: #41bd48;">Your Next Date</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1.8rem; margin: 10px 0;">{{ date_name }}</td>
+                    </tr>
+                    <tr>
+                        <td style="margin-bottom: 10px;">
+                            <p>{{ date_content }}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <a href="{{ date_link }}" class="button" target="_blank">Visit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1rem; color: #c0c2c4;">Rating: {{ date_rating }}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Events -->
+        <tr>
+            <td style="padding: 20px; background: rgba(0, 0, 0, 0.5); border-radius: 15px; color: white;">
+                <img src="{{ events_image_url }}" alt="Events Image" style="border-radius: 15px;">
+                <table role="presentation" width="100%"
+                    style="padding: 20px; background: rgba(0, 0, 0, 0.6); border-radius: 15px; color: white;">
+                    <tr>
+                        <td style="font-size: 1.2rem; font-weight: bold; color: #41bd48;">In the Brew</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1.8rem; margin: 10px 0;">{{ brew_name }}</td>
+                    </tr>
+                    <tr>
+                        <td style="margin-bottom: 10px;">
+                            <p>{{ brew_content }}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <a href="{{ events_link }}" class="button" target="_blank">Visit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1rem; color: #c0c2c4;">Rating: {{ brew_rating }}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Cafe -->
+        <tr>
+            <td style="padding: 20px; background: rgba(0, 0, 0, 0.5); border-radius: 15px; color: white;">
+                <img src="{{ cafe_image_url }}" alt="Cafe Image" style="border-radius: 15px;">
+                <table role="presentation" width="100%"
+                    style="padding: 20px; background: rgba(0, 0, 0, 0.6); border-radius: 15px; color: white;">
+                    <tr>
+                        <td style="font-size: 1.2rem; font-weight: bold; color: #41bd48;">Coffee Corner</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1.8rem; margin: 10px 0;">{{ cafe_name }}</td>
+                    </tr>
+                    <tr>
+                        <td style="margin-bottom: 10px;">
+                            <p>{{ cafe_content }}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <a href="{{ cafe_link }}" class="button" target="_blank">Visit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1rem; color: #c0c2c4;">Rating: {{ cafe_rating }}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Pub/Bar -->
+        <tr>
+            <td style="padding: 20px; background: rgba(0, 0, 0, 0.5); border-radius: 15px; color: white;">
+                <img src="{{ pubandbar_image_url }}" alt="Pub/Bar Image" style="border-radius: 15px;">
+                <table role="presentation" width="100%"
+                    style="padding: 20px; background: rgba(0, 0, 0, 0.6); border-radius: 15px; color: white;">
+                    <tr>
+                        <td style="font-size: 1.2rem; font-weight: bold; color: #41bd48;">Pubs & Bars</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1.8rem; margin: 10px 0;">{{ pubandbar_name }}</td>
+                    </tr>
+                    <tr>
+                        <td style="margin-bottom: 10px;">
+                            <p>{{ pubandbar_content }}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <a href="{{ pubandbar_link }}" class="button" target="_blank">Visit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 1rem; color: #c0c2c4;">Rating: {{ pubandbar_rating }}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <footer style="text-align: center; padding: 20px; background-color: #161616; color: #7e7f80;">
+        <p>&copy; {{ current_year }} Sneak Peek. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

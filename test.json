@@ -1,0 +1,242 @@
+{
+    "cafe": [
+        {
+            "name": "Toca Terrace",
+            "url": "https://www.zomato.com/bangalore/toca-terrace-brigade-road-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.1",
+            "description": "Toca Terrace is a cozy and inviting cafe that offers a delightful dining experience. With a rating of 4.1, it has earned the appreciation of many patrons. The cafe boasts a warm and welcoming ambiance, perfect for relaxing and enjoying a cup of coffee or tea. The menu features a variety of delectable treats, including pastries, sandwiches, and salads. Whether you're looking for a quick bite or a leisurely brunch, Toca Terrace is the perfect destination."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "South Indian"
+                },
+                {
+                    "cusine": "North Indian"
+                },
+                {
+                    "cusine": "Continental"
+                },
+                {
+                    "cusine": "Chinese"
+                },
+                {
+                    "cusine": "Seafood"
+                },
+                {
+                    "cusine": "Pasta"
+                }
+            ]
+        }
+    ],
+    "date": [
+        {
+            "name": "Ebony",
+            "url": "https://www.zomato.com/bangalore/ebony-mg-road?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.2",
+            "description": "Indulge in an intimate dining experience at Ebony, a romantic haven adorned with elegant d\u00e9cor and soft lighting. Savor exquisite culinary creations crafted with passion and precision, complemented by an extensive wine list. The attentive staff ensures impeccable service, creating a memorable evening for couples seeking a romantic escape. With a 4.2 rating, Ebony promises an unforgettable dining experience that will ignite your senses and leave you longing for more."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "North Indian"
+                },
+                {
+                    "cusine": "Biryani"
+                },
+                {
+                    "cusine": "South Indian"
+                },
+                {
+                    "cusine": "Thai"
+                },
+                {
+                    "cusine": "Seafood"
+                },
+                {
+                    "cusine": "Desserts"
+                },
+                {
+                    "cusine": "Beverages"
+                }
+            ]
+        }
+    ],
+    "featured": [
+        {
+            "name": "Pecos",
+            "url": "https://www.zomato.com/bangalore/pecos-brigade-road-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.2",
+            "description": "Pecos is a top-rated restaurant with a 4.2-star rating. It offers a unique dining experience with its rustic ambiance and authentic Southwestern cuisine. The menu features a variety of dishes, including sizzling fajitas, savory enchiladas, and mouthwatering tacos. The friendly staff and cozy atmosphere make Pecos a great choice for a casual meal or a special occasion."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "Finger Food"
+                },
+                {
+                    "cusine": "North Indian"
+                },
+                {
+                    "cusine": "Seafood"
+                },
+                {
+                    "cusine": "Chinese"
+                }
+            ]
+        }
+    ],
+    "microbrewery": [
+        {
+            "name": "The Bier Library",
+            "url": "https://www.zomato.com/bangalore/the-bier-library-koramangala-6th-block-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.5",
+            "description": "Nestled in the heart of Bangalore, The Bier Library is a haven for beer enthusiasts. With a rating of 4.5, this microbrewery boasts an extensive selection of handcrafted beers, each brewed with passion and precision. From classic lagers to experimental IPAs, there's a beer to suit every palate. The cozy ambiance, knowledgeable staff, and delectable food menu make The Bier Library the perfect destination for a memorable beer-tasting experience."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "North Indian"
+                },
+                {
+                    "cusine": "Pizza"
+                },
+                {
+                    "cusine": "European"
+                },
+                {
+                    "cusine": "American"
+                },
+                {
+                    "cusine": "Bar Food"
+                },
+                {
+                    "cusine": "Oriental"
+                },
+                {
+                    "cusine": "Desserts"
+                },
+                {
+                    "cusine": "BBQ"
+                }
+            ]
+        }
+    ],
+    "newlyOpened": [
+        {
+            "name": "Navathanyam",
+            "url": "https://www.zomato.com/bangalore/navathanyam-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "New",
+            "description": "Indulge in the authentic flavors of South India at Navathanyam, Bangalore's newest culinary destination. Our menu boasts a delectable array of traditional dishes, lovingly prepared with fresh, local ingredients. From aromatic biryanis to crispy dosas, each dish is a testament to the rich culinary heritage of the region. Experience the warmth of South Indian hospitality and savor the flavors that have delighted generations.\n\nRating: New"
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "South Indian"
+                },
+                {
+                    "cusine": "Healthy Food"
+                },
+                {
+                    "cusine": "Tamil"
+                }
+            ]
+        }
+    ],
+    "pubandbar": [
+        {
+            "name": "Mirage",
+            "url": "https://www.zomato.com/bangalore/mirage-st-marks-road-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.2",
+            "description": "Mirage is a lively pub with a warm and welcoming atmosphere. The friendly staff and excellent service make it a popular spot for locals and tourists alike. The menu features a wide selection of drinks, including craft beers, cocktails, and wines. The food is also top-notch, with a focus on traditional pub fare made with fresh, local ingredients. With its cozy ambiance, great food and drinks, and friendly staff, Mirage is the perfect place to relax and unwind. Rating: 4.2"
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "Asian"
+                },
+                {
+                    "cusine": "Chinese"
+                },
+                {
+                    "cusine": "Thai"
+                },
+                {
+                    "cusine": "Beverages"
+                },
+                {
+                    "cusine": "Desserts"
+                }
+            ]
+        }
+    ],
+    "rooftop": [
+        {
+            "name": "Roxie",
+            "url": "https://www.zomato.com/bangalore/roxie-sarjapur-road-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.6",
+            "description": "Escape to Roxie, a rooftop oasis where culinary artistry meets breathtaking city views. Perched atop a chic urban sanctuary, Roxie offers an unforgettable dining experience. Indulge in innovative dishes crafted with fresh, seasonal ingredients, while sipping on handcrafted cocktails that tantalize your taste buds. As the sun dips below the horizon, the city transforms into a glittering tapestry, creating an ambiance that is both intimate and exhilarating. With a 4.6-star rating, Roxie promises an evening of culinary excellence and unforgettable memories."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "Continental"
+                },
+                {
+                    "cusine": "Asian"
+                },
+                {
+                    "cusine": "North Indian"
+                },
+                {
+                    "cusine": "European"
+                },
+                {
+                    "cusine": "American"
+                },
+                {
+                    "cusine": "Italian"
+                },
+                {
+                    "cusine": "Pizza"
+                },
+                {
+                    "cusine": "Beverages"
+                }
+            ]
+        }
+    ],
+    "trending": [
+        {
+            "name": "Oia",
+            "url": "https://www.zomato.com/bangalore/oia-3-hennur-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.2",
+            "description": "Nestled in the heart of Bangalore, Oia is a vibrant and trendy destination that exudes a Mediterranean charm. With its whitewashed walls, blue-domed roofs, and stunning views of the city skyline, Oia offers a unique and immersive experience. The restaurant serves a delectable menu of Mediterranean and European cuisine, complemented by an extensive wine list. The ambiance is lively and inviting, making it an ideal spot for romantic dinners, special occasions, or simply a night out with friends. Rated 4.2 out of 5, Oia is a must-visit for those seeking a taste of the Mediterranean in the heart of India's tech capital."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "Continental"
+                },
+                {
+                    "cusine": "Asian"
+                },
+                {
+                    "cusine": "Seafood"
+                },
+                {
+                    "cusine": "Salad"
+                },
+                {
+                    "cusine": "Pizza"
+                },
+                {
+                    "cusine": "North Indian"
+                },
+                {
+                    "cusine": "Desserts"
+                }
+            ]
+        }
+    ]
+}

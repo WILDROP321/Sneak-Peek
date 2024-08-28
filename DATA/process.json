@@ -1,0 +1,337 @@
+{
+    "cafe": [
+        {
+            "name": "Lazy Suzy",
+            "url": "https://www.zomato.com/bangalore/lazy-suzy-indiranagar?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.2",
+            "images": [
+                "https://b.zmtcdn.com/data/pictures/chains/4/18221564/4560458726c1124b7ef28e5fbe4d0028.jpg",
+                "https://b.zmtcdn.com/data/pictures/4/18221564/229aca6a438b7b61e282b31492d60a4d.jpg",
+                "https://b.zmtcdn.com/data/pictures/4/18221564/9356801a789aa6bc40e0993936bc0c5c.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/4/18221564/ec942fc8bd8ba37b03e31aec6f3e86eb.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/4/18221564/f4b0e6f9ee33087b664034aa72484530.jpg",
+                "https://b.zmtcdn.com/data/pictures/4/18221564/18505771a0b79eebcd18a85df69997d1.png",
+                "https://b.zmtcdn.com/data/pictures/chains/4/18221564/2e13bb7b3f92f3ec3fc37ddec72455f4.jpg",
+                "https://b.zmtcdn.com/data/pictures/4/18221564/6999a881a1c4ea8bb62bac1728510e48.jpg",
+                "https://b.zmtcdn.com/data/pictures/4/18221564/fdd147ea22ed654ae972a94e2fb94c1a.png",
+                "https://b.zmtcdn.com/data/pictures/chains/4/18221564/080fe5e1bac4086d4d396f726014ac6b.jpg"
+            ],
+            "feature_image": "https://b.zmtcdn.com/data/pictures/4/18221564/9356801a789aa6bc40e0993936bc0c5c.jpg",
+            "description": "Lazy Suzy is a cozy cafe with a laid-back atmosphere and a 4.2-star rating. It's the perfect place to relax and enjoy a cup of coffee or tea, or to grab a bite to eat. The menu features a variety of breakfast and lunch options, as well as pastries, sandwiches, and salads. The staff is friendly and attentive, and the prices are reasonable. Whether you're looking for a place to study, work, or just relax, Lazy Suzy is the perfect spot."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "Cafe"
+                },
+                {
+                    "cusine": "Continental"
+                },
+                {
+                    "cusine": "Italian"
+                },
+                {
+                    "cusine": "Pizza"
+                },
+                {
+                    "cusine": "Desserts"
+                },
+                {
+                    "cusine": "Beverages"
+                }
+            ]
+        }
+    ],
+    "date": [
+        {
+            "name": "Nevermind - Bar & Social",
+            "url": "https://www.zomato.com/bangalore/nevermind-bar-social-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.1",
+            "images": [
+                "https://b.zmtcdn.com/data/pictures/chains/2/18888512/6ba3d181d38a418db8cfa62fb7b45d6a.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/2/18888512/63a8f0746f032e4f74e1b14293616047.jpg",
+                "https://b.zmtcdn.com/data/pictures/2/18888512/3f09970ba30dec641ad7423c9997fa0f.jpg",
+                "https://b.zmtcdn.com/data/pictures/2/18888512/18bf1da25d2fa1d373513ea20bade8ff.jpg",
+                "https://b.zmtcdn.com/data/pictures/2/18888512/1e421f2aa1796920f7252682d01e269c.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/2/18888512/8156940d44ff00d73a81b7b21f73ab23.jpg",
+                "https://b.zmtcdn.com/data/pictures/2/18888512/cc24ded2ac08e614b5b66f01c1a63ca1.jpg",
+                "https://b.zmtcdn.com/data/pictures/2/18888512/d573e4f5b34788f08a1c73f6ef5af53e.jpg",
+                "https://b.zmtcdn.com/data/pictures/2/18888512/bf68300193b8280abbb16489424f7693.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/2/18888512/cc1bd385f372e143dbbe7865865bbf56.jpg"
+            ],
+            "feature_image": "https://b.zmtcdn.com/data/pictures/2/18888512/cc24ded2ac08e614b5b66f01c1a63ca1.jpg",
+            "description": "Escape into the enchanting ambiance of Nevermind - Bar & Social, where romance blossoms amidst candlelit tables and the soft glow of fairy lights. Indulge in exquisite culinary creations that tantalize your taste buds, while live music serenades you and your loved one. With a cozy and intimate atmosphere, Nevermind sets the stage for unforgettable moments, earning it a well-deserved 4.1 rating."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "Bar Food"
+                },
+                {
+                    "cusine": "North Indian"
+                },
+                {
+                    "cusine": "Chinese"
+                },
+                {
+                    "cusine": "Continental"
+                },
+                {
+                    "cusine": "Burger"
+                }
+            ]
+        }
+    ],
+    "featured": [
+        {
+            "name": "New Modern Hotel",
+            "url": "https://www.zomato.com/bangalore/new-modern-hotel-basavanagudi?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.4",
+            "images": [
+                "https://b.zmtcdn.com/data/pictures/chains/6/52716/6ae2f58cb316843296ec8c4dfb0d4eef.jpg",
+                "https://b.zmtcdn.com/data/reviews_photos/855/30aea438c48e0472fe2d8a4a03e8b855_1572286003.jpg",
+                "https://b.zmtcdn.com/data/reviews_photos/8f1/4d3a008be136e4f0d2e347bcbed478f1_1553163038.jpg",
+                "https://b.zmtcdn.com/data/reviews_photos/f0a/1b0c124ff814906aac1794a84b9aef0a_1454837101.jpg",
+                "https://b.zmtcdn.com/data/reviews_photos/7d6/eb9461e7f253fa719c267aeafc16c7d6_1552896273.jpg",
+                "https://b.zmtcdn.com/data/reviews_photos/776/50c3cb4f8798196fcb0c7897955e7776_1708459861.jpg",
+                "https://b.zmtcdn.com/data/reviews_photos/2ff/6eb83383e4b360c5ed842c583d8472ff_1552896272.jpg",
+                "https://b.zmtcdn.com/data/reviews_photos/808/46e3a8210d767650d46a8fa2eab2f808_1708459862.jpg",
+                "https://b.zmtcdn.com/data/reviews_photos/141/5fc72fb41d3662b68970b9d73da33141_1460887200.jpg",
+                "https://b.zmtcdn.com/data/reviews_photos/2d5/e691954f81cb3d0a6302f23beacab2d5_1507295734.jpg"
+            ],
+            "feature_image": "https://b.zmtcdn.com/data/reviews_photos/855/30aea438c48e0472fe2d8a4a03e8b855_1572286003.jpg",
+            "description": "Indulge in culinary excellence at New Modern Hotel, where contemporary cuisine meets impeccable service. Our 4.4-star rating is a testament to our commitment to providing an unforgettable dining experience. From innovative dishes to classic favorites, our menu caters to every palate. Our elegant ambiance and attentive staff will ensure that your visit is both memorable and satisfying."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "South Indian"
+                },
+                {
+                    "cusine": "Beverages"
+                }
+            ]
+        }
+    ],
+    "microbrewery": [
+        {
+            "name": "The Biere Club",
+            "url": "https://www.zomato.com/bangalore/the-biere-club-lavelle-road-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.2",
+            "images": [
+                "https://b.zmtcdn.com/data/pictures/7/51907/07a9af179a45a6ff52d233977e0e1a54.jpg",
+                "https://b.zmtcdn.com/data/pictures/7/51907/1215e7ccf6cabc757926e16ef93c788d.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/7/51907/395a99079003599a3b402edf6a4d9437.png",
+                "https://b.zmtcdn.com/data/pictures/chains/7/51907/1db8546fee637f5ad5b15ced24183721.jpeg",
+                "https://b.zmtcdn.com/data/pictures/7/51907/7fc9de7fd6f262b740368d77d64b147e.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/7/51907/a13dba93ffcf62a6c89673411091cde8.jpg",
+                "https://b.zmtcdn.com/data/pictures/7/51907/b18ec1f239d2fafb39276c97080f3d40.png",
+                "https://b.zmtcdn.com/data/pictures/chains/7/51907/d7b780496be9a5357f2299917b190b78.jpg",
+                "https://b.zmtcdn.com/data/pictures/7/51907/3c2ba0679eaf81753f506ad532d9f878.jpg",
+                "https://b.zmtcdn.com/data/pictures/7/51907/4c769128dcc00c319a03f722cbc7717f.jpg"
+            ],
+            "feature_image": "https://b.zmtcdn.com/data/pictures/7/51907/3c2ba0679eaf81753f506ad532d9f878.jpg",
+            "description": "Nestled in the heart of Bangalore, The Biere Club is a microbrewery that's a haven for beer enthusiasts. With a rating of 4.2, it boasts a wide selection of handcrafted beers, from classic lagers to experimental IPAs. The cozy ambiance, friendly staff, and delectable food menu make it a perfect spot to unwind and savor the finest brews. Whether you're a seasoned beer connoisseur or just starting to explore the world of craft beer, The Biere Club is a must-visit destination."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "Bar Food"
+                },
+                {
+                    "cusine": "Continental"
+                },
+                {
+                    "cusine": "Italian"
+                },
+                {
+                    "cusine": "Wraps"
+                },
+                {
+                    "cusine": "Salad"
+                },
+                {
+                    "cusine": "Middle Eastern"
+                },
+                {
+                    "cusine": "Pizza"
+                }
+            ]
+        }
+    ],
+    "newlyOpened": [
+        {
+            "name": "Botany Brew and Kitchen",
+            "url": "https://www.zomato.com/bangalore/botany-brew-and-kitchen-lavelle-road-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "New",
+            "images": [
+                "https://b.zmtcdn.com/data/pictures/3/21274383/3bce65a59178200ace478707cf41b0e0.jpg",
+                "https://b.zmtcdn.com/data/pictures/3/21274383/e41726ceb0ccf4de861e78c4f56a11d1.jpg",
+                "https://b.zmtcdn.com/data/pictures/3/21274383/4d3ed9717a4800f121b6a6e57c79c9ca.jpg",
+                "https://b.zmtcdn.com/data/pictures/3/21274383/7dd50ebd1edcfd7276f2f4bbd8825103.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/3/21274383/9dfe92de427a3f2c2e5dd8b098683319.jpg",
+                "https://b.zmtcdn.com/data/pictures/3/21274383/4c1720d7719d6d0be1dcb935dfbedbdd.jpg",
+                "https://b.zmtcdn.com/data/pictures/3/21274383/d44acf18de2f409fd009bd6224d78e59.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/3/21274383/f44d99cb58994a5feda5cd962f2916df.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/3/21274383/cbaab85ca55fe5b1f416a1e79eb78625.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/3/21274383/3ce9a682d77ba3f15fd828f34080424f.jpg"
+            ],
+            "feature_image": "https://b.zmtcdn.com/data/pictures/3/21274383/4c1720d7719d6d0be1dcb935dfbedbdd.jpg",
+            "description": "Nestled in the heart of Bangalore, Botany Brew and Kitchen is a haven for food and nature enthusiasts. Immerse yourself in a botanical wonderland as you savor delectable dishes crafted with fresh, seasonal ingredients. From aromatic brews to tantalizing culinary creations, each offering is a testament to the restaurant's passion for sustainability and culinary excellence. Step into Botany Brew and Kitchen and embark on a gastronomic journey that will awaken your senses and nourish your soul.\n\nRating: New"
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "North Indian"
+                },
+                {
+                    "cusine": "Chinese"
+                },
+                {
+                    "cusine": "Sushi"
+                },
+                {
+                    "cusine": "Continental"
+                },
+                {
+                    "cusine": "Asian"
+                },
+                {
+                    "cusine": "Thai"
+                }
+            ]
+        }
+    ],
+    "pubandbar": [
+        {
+            "name": "Mirage",
+            "url": "https://www.zomato.com/bangalore/mirage-st-marks-road-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.2",
+            "images": [
+                "https://b.zmtcdn.com/data/pictures/5/19603965/05d0f7a9b7b84ab4b7ebf547bf2a5067.jpg",
+                "https://b.zmtcdn.com/data/pictures/5/19603965/bf5530e092e0890d92bfb76a123278d8.jpg",
+                "https://b.zmtcdn.com/data/pictures/5/19603965/18e269f72e2feeaeb9ec8bde1f8e217f.jpg",
+                "https://b.zmtcdn.com/data/pictures/5/19603965/3de1e76d4d07a729a30e525d8936b9fe.jpg",
+                "https://b.zmtcdn.com/data/pictures/5/19603965/775a68235ac54dc50c13525bf9efcb10.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/5/19603965/24bd8b73a7a5dcbb635aaa63259e70fc.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/5/19603965/504e1a01d2db33b535d13f34107513f9.jpg",
+                "https://b.zmtcdn.com/data/pictures/5/19603965/185e5eb4772f56c977dca70ff719818b.jpg",
+                "https://b.zmtcdn.com/data/pictures/5/19603965/4feb645849213a9053edbfcea927aeeb.jpg",
+                "https://b.zmtcdn.com/data/pictures/5/19603965/9c0d257270ed2b4756149fe4c824c9e3.jpg"
+            ],
+            "feature_image": "https://b.zmtcdn.com/data/pictures/5/19603965/775a68235ac54dc50c13525bf9efcb10.jpg",
+            "description": "Escape to Mirage, a captivating pub/bar where illusions dance and reality blurs. Immerse yourself in a vibrant atmosphere, where the clinking of glasses and lively conversations create a symphony of sound. With a rating of 4.2, Mirage promises an unforgettable experience, offering a tantalizing menu, expertly crafted cocktails, and live entertainment that will transport you to a realm of pure enchantment."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "Asian"
+                },
+                {
+                    "cusine": "Chinese"
+                },
+                {
+                    "cusine": "Thai"
+                },
+                {
+                    "cusine": "Beverages"
+                },
+                {
+                    "cusine": "Desserts"
+                }
+            ]
+        }
+    ],
+    "rooftop": [
+        {
+            "name": "The Terrace at Gilly's Redefined",
+            "url": "https://www.zomato.com/bangalore/the-terrace-at-gillys-redefined-koramangala-4th-block?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.4",
+            "images": [
+                "https://b.zmtcdn.com/data/pictures/chains/7/18586207/fd9729e398486fb086686a29960a824b.jpg",
+                "https://b.zmtcdn.com/data/pictures/7/18586207/d08f9fbf68d8b11cc4992be719537fc2.jpg",
+                "https://b.zmtcdn.com/data/pictures/7/18586207/e2b2860494d9d8d6262c6ce45a1d2af9.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/7/18586207/556e457d078ba134627267456f2553be.jpg",
+                "https://b.zmtcdn.com/data/pictures/7/18586207/42a28a790ffb1813817a6a809ef347fe.jpg",
+                "https://b.zmtcdn.com/data/pictures/7/18586207/c378956343b6b14b0fd31e01e23c5e45.jpg",
+                "https://b.zmtcdn.com/data/pictures/7/18586207/e8bbe27a10b079d3375fba61b4d74fa7.jpg",
+                "https://b.zmtcdn.com/data/pictures/7/18586207/5f3ca79e1a53fa4186638c899065fd2f.jpg",
+                "https://b.zmtcdn.com/data/pictures/7/18586207/242b382785b553ac2d8c807f190d1b5c.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/7/18586207/e3c97fb1aa1f6bbb0de1bf807c797a53.jpg"
+            ],
+            "feature_image": "https://b.zmtcdn.com/data/pictures/7/18586207/e0df1d4770cfaf2434fdb1afb424ef7d.jpg",
+            "description": "Escape to The Terrace at Gilly's Redefined, a rooftop oasis with breathtaking city views. Indulge in delectable cuisine and handcrafted cocktails while soaking up the vibrant atmosphere. Our attentive service and chic ambiance create an unforgettable dining experience. Rated 4.4 stars, The Terrace is the perfect destination for a romantic evening, special occasion, or simply a night out with friends."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "Continental"
+                },
+                {
+                    "cusine": "North Indian"
+                },
+                {
+                    "cusine": "Italian"
+                },
+                {
+                    "cusine": "Bar Food"
+                },
+                {
+                    "cusine": "Desserts"
+                },
+                {
+                    "cusine": "Chinese"
+                },
+                {
+                    "cusine": "Beverages"
+                }
+            ]
+        }
+    ],
+    "trending": [
+        {
+            "name": "Azukii Bistro",
+            "url": "https://www.zomato.com/bangalore/azukii-bistro-richmond-town-bangalore?zrp_bid=0&zrp_pid=14",
+            "Ratings": "4.8",
+            "images": [
+                "https://b.zmtcdn.com/data/pictures/6/18463566/d85aa6be4933a1281b20dad4c6a6394e.jpg",
+                "https://b.zmtcdn.com/data/pictures/6/18463566/a4c705eeb07e0e72232cd93a41acf415.jpg",
+                "https://b.zmtcdn.com/data/pictures/6/18463566/5c43e1ca881c1776d23260c075bdf125.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/6/18463566/f20ede40949d16e6c2a8736578880f4b.jpg",
+                "https://b.zmtcdn.com/data/pictures/6/18463566/1c8cd86fa9bd5c3fa93d1bd1032b4ce7.jpg",
+                "https://b.zmtcdn.com/data/pictures/6/18463566/c8571e4e3ea12449ebbe970b1a5ef5fd.jpg",
+                "https://b.zmtcdn.com/data/pictures/chains/6/18463566/b4ba1f735d70e725630a6114b1278346.jpg",
+                "https://b.zmtcdn.com/data/reviews_photos/5bc/2adb3e74c510ea6e423cd652e847e5bc_1583211401.jpg",
+                "https://b.zmtcdn.com/data/reviews_photos/aff/e1e675b9011bdc9c173d9a6ae734faff_1584700322.jpeg",
+                "https://b.zmtcdn.com/data/reviews_photos/288/180cc024d92637a254131bbefde2b288_1584700322.jpeg"
+            ],
+            "feature_image": "https://b.zmtcdn.com/data/pictures/6/18463566/6a46fc0f328615b7f42d39d09bdd824f.jpg",
+            "description": "Nestled in the heart of Bangalore, Azukii Bistro is a culinary haven that has captured the hearts of food enthusiasts. With an impressive rating of 4.8, this trendy spot offers a delectable fusion of Asian and European flavors. The menu boasts an array of tantalizing dishes, from aromatic curries to succulent steaks, all crafted with fresh, locally sourced ingredients. The ambiance is chic and inviting, with warm lighting and stylish decor. Whether you're seeking a romantic dinner or a lively gathering with friends, Azukii Bistro promises an unforgettable dining experience."
+        },
+        {
+            "Cusine": [
+                {
+                    "cusine": "Japanese"
+                },
+                {
+                    "cusine": "Asian"
+                },
+                {
+                    "cusine": "Rolls"
+                },
+                {
+                    "cusine": "Sushi"
+                },
+                {
+                    "cusine": "Salad"
+                },
+                {
+                    "cusine": "Tea"
+                },
+                {
+                    "cusine": "Beverages"
+                }
+            ]
+        }
+    ]
+}

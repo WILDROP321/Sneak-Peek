@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneak Peek ({{ article_issue }}) {{ article_date }}</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #161616;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .section-wrapper {
+            margin: 20px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section-wrapper img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .section-content {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+        }
+
+        .tag {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #41bd48;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin: 10px 0;
+        }
+
+        .content {
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #41bd48;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+            display: block;
+            margin: 10px auto;
+        }
+
+        button:hover {
+            background-color: #369e3c;
+        }
+
+        .details {
+            font-size: 1.5rem;
+            color: #ffffff;
+        }
+
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 10px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        .card-rating,
+        .card-location {
+            margin: 5px 0;
+        }
+
+        .info {
+            color: #7e7f80;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .section-wrapper {
+                margin: 10px;
+                padding: 10px;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://sneakwild.netlify.app/headerBanner.png" alt="Header Image">
+        <span class="info">Issue: {{ article_issue }}, Date: {{ article_date }}</span>
+    </header>
+
+    <!-- Featured Content -->
+    <div class="section-wrapper">
+        <img src="{{ featured_image_url }}" alt="Featured Image">
+        <div class="section-content">
+            <span class="tag">Featured This Week</span>
+            <h2>{{ featured_name }}</h2>
+            <div class="content">
+                <p>{{ featured_content }}</p>
+            </div>
+            <a href="{{ featured_link }}" target='_blank'><button>Visit</button></a>
+            <div class="details">Rating: {{ featured_rating }}</div>
+        </div>
+    </div>
+
+    <!-- Trending -->
+    <div class="section-wrapper">
+        <img src="{{ trending_image_url }}" alt="Trending Image">
+        <div class="section-content">
+            <span class="tag">Trending</span>
+            <h2>{{ trending_name }}</h2>
+            <div class="content">
+                <p>{{ trending_content }}</p>
+            </div>
+            <a href="{{ trending_link }}" target='_blank'><button>Visit</button></a>
+            <div class="details">Rating: {{ trending_rating }}</div>
+        </div>
+    </div>
+
+    <!-- New In Town -->
+    <div class="section-wrapper">
+        <img src="{{ new_in_town_image_url }}" alt="New In Town Image">
+        <div class="section-content">
+            <span class="tag">New in Town</span>
+            <h2>{{ new_in_town_name }}</h2>
+            <div class="content">
+                <p>{{ new_in_town_content }}</p>
+            </div>
+            <a href="{{ new_in_town_link }}" target='_blank'><button>Visit</button></a>
+            <div class="details">Rating: {{ new_in_town_rating }}</div>
+        </div>
+    </div>
+
+    <!-- It's a Date! -->
+    <div class="section-wrapper">
+        <img src="{{ date_image_url }}" alt="Date Image">
+        <div class="section-content">
+            <span class="tag">Your Next Date</span>
+            <h2>{{ date_name }}</h2>
+            <div class="content">
+                <p>{{ date_content }}</p>
+            </div>
+            <a href="{{ date_link }}" target='_blank'><button>Visit</button></a>
+            <div class="details">Rating: {{ date_rating }}</div>
+        </div>
+    </div>
+
+    <!-- Events -->
+    <div class="section-wrapper">
+        <img src="{{ events_image_url }}" alt="Events Image">
+        <div class="section-content">
+            <span class="tag">In the Brew</span>
+            <h2>{{ brew_name }}</h2>
+            <div class="content">
+                <p>{{ brew_content }}</p>
+            </div>
+            <a href="{{ events_link }}" target='_blank'><button>Visit</button></a>
+            <div class="details">Rating: {{ brew_rating }}</div>
+        </div>
+    </div>
+
+    <!-- Cafe -->
+    <div class="section-wrapper">
+        <img src="{{ cafe_image_url }}" alt="Cafe Image">
+        <div class="section-content">
+            <span class="tag">Coffee Corner</span>
+            <h2>{{ cafe_name }}</h2>
+            <div class="content">
+                <p>{{ cafe_content }}</p>
+            </div>
+            <a href="{{ cafe_link }}" target='_blank'><button>Visit</button></a>
+            <div class="details">Rating: {{ cafe_rating }}</div>
+        </div>
+    </div>
+
+    <!-- Pub and Bar -->
+    <div class="section-wrapper">
+        <img src="{{ pubandbar_image_url }}" alt="Pub and Bar Image">
+        <div class="section-content">
+            <span class="tag">Pub/Bar</span>
+            <h2>{{ pubandbar_name }}</h2>
+            <div class="content">
+                <p>{{ pubandbar_content }}</p>
+            </div>
+            <a href="{{ pubandbar_link }}" target='_blank'><button>Visit</button></a>
+            <div class="details">Rating: {{ pubandbar_rating }}</div>
+        </div>
+    </div>
+
+    <!-- End -->
+    <div class="section-wrapper">
+        <img src="https://sneakwild.netlify.app/END.png" alt="End Image">
+        <div class="section-content">
+            <span class="info">Sneak Peek 2024</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
