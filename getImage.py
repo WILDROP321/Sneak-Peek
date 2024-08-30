@@ -7,10 +7,16 @@ from selenium.webdriver.support import expected_conditions as EC
 import json
 import time
 import re
+import os
 
 # Path to your JSON file and ChromeDriver
 json_file_path = 'DATA/process.json'  # Update this path
 chrome_driver_path = '/usr/local/bin/chromedriver'  # Update this path
+
+def start_xvfb():
+    """Start Xvfb in the background."""
+    os.system('Xvfb :99 -screen 0 1920x1080x24 &')
+    os.environ['DISPLAY'] = ':99'
 
 def scroll_slowly(driver, scroll_pause_time=2, scroll_increment=300):
     """Scrolls the page slowly up and down to load all images."""
@@ -76,6 +82,9 @@ def get_feature_image(driver, url):
     return clean_image_url(feature_img_element.get_attribute('src'))
 
 def getImage():
+    # Start Xvfb
+    start_xvfb()
+
     # Initialize WebDriver
     chrome_options = Options()
     chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
@@ -117,3 +126,5 @@ def getImage():
     finally:
         # Close the WebDriver
         driver.quit()
+
+
