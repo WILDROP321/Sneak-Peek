@@ -10,7 +10,7 @@ import re
 
 # Path to your JSON file and ChromeDriver
 json_file_path = 'DATA/process.json'  # Update this path
-chrome_driver_path = 'chromedriver'  # Update this path
+chrome_driver_path = '/usr/local/bin/chromedriver'  # Update this path
 
 def scroll_slowly(driver, scroll_pause_time=2, scroll_increment=300):
     """Scrolls the page slowly up and down to load all images."""
