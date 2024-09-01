@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from pyvirtualdisplay import Display
 import json
 import time
 import re
@@ -75,13 +76,13 @@ def get_feature_image(driver, url):
         return ""
 
 def getImage():
+    # Start a virtual display
+    display = Display(visible=0, size=(1024, 768))
+    display.start()
+
     firefox_options = FirefoxOptions()
-    # Uncomment this line if Firefox is in a non-default location
-    # firefox_options.binary_location = "C:/Path/To/Your/Firefox/firefox.exe"
-    
-    # Optional: Run in GUI mode for debugging
-    firefox_options.headless = True
-    
+    firefox_options.headless = True  # Run in headless mode
+
     service = Service(executable_path=geckodriver_path)
     driver = webdriver.Firefox(service=service, options=firefox_options)
 
@@ -110,5 +111,4 @@ def getImage():
 
     finally:
         driver.quit()
-
-
+        display.stop()  # Stop the virtual display

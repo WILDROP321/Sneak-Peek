@@ -1,0 +1,15 @@
+Reload Systemd and Restart the Service
+After updating the service file, reload Systemd and restart the service:
+
+sudo systemctl daemon-reload
+sudo systemctl restart sneakpeek
+
+Check the status to ensure it started correctly:
+sudo systemctl status sneakpeek
+
+
+
+
+sudo systemctl daemon-reload
+sudo systemctl restart sneakpeek
+sudo systemctl status sneakpeek
