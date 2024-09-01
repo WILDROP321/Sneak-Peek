@@ -85,3 +85,5 @@ def run():
     updateBlog()
     time.sleep(2)
     print("PROCESS COMPLETE")
+
+

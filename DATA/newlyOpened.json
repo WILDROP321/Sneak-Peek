@@ -1,48 +1,18 @@
 {
   "Place": [
     {
-      "name": "Kopitiam Lah",
-      "url": "https://www.zomato.com/bangalore/kopitiam-lah-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "New"
-    },
-    {
-      "name": "Si Nonna\u2019s - The Original Sourdough Pizza",
-      "url": "https://www.zomato.com/bangalore/si-nonnas-the-original-sourdough-pizza-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "New"
-    },
-    {
-      "name": "La Gioia",
-      "url": "https://www.zomato.com/bangalore/la-gioia-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "New"
-    },
-    {
-      "name": "Los Cavos",
-      "url": "https://www.zomato.com/bangalore/los-cavos-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "New"
-    },
-    {
-      "name": "SMM Taj Imperia",
-      "url": "https://www.zomato.com/bangalore/smm-taj-imperia-ramanagara-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "New"
-    },
-    {
-      "name": "The Coffee Brewery",
-      "url": "https://www.zomato.com/bangalore/the-coffee-brewery-malleshwaram-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "New"
-    },
-    {
       "name": "PI - Lounge Bar",
       "url": "https://www.zomato.com/bangalore/pi-lounge-bar-mahadevapura-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "New"
     },
     {
-      "name": "Botany Brew and Kitchen",
-      "url": "https://www.zomato.com/bangalore/botany-brew-and-kitchen-lavelle-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "name": "Somras bar and kitchen",
+      "url": "https://www.zomato.com/bangalore/somras-bar-and-kitchen-1-hsr-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "New"
     },
     {
-      "name": "The Bench",
-      "url": "https://www.zomato.com/bangalore/the-bench-brookefield-bangalore?zrp_bid=0&zrp_pid=14",
+      "name": "Urban Dyne",
+      "url": "https://www.zomato.com/bangalore/urban-dyne-mahadevapura-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "New"
     },
     {
@@ -56,28 +26,13 @@
       "Ratings": "New"
     },
     {
-      "name": "Kubo",
-      "url": "https://www.zomato.com/bangalore/kubo-1-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "name": "La Gioia",
+      "url": "https://www.zomato.com/bangalore/la-gioia-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "New"
     },
     {
-      "name": "The Peck",
-      "url": "https://www.zomato.com/bangalore/the-peck-1-koramangala-8th-block-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "New"
-    },
-    {
-      "name": "Runway 27",
-      "url": "https://www.zomato.com/bangalore/runway-27-kadubeesanahalli-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "New"
-    },
-    {
-      "name": "Glen's Bakehouse",
-      "url": "https://www.zomato.com/bangalore/glens-bakehouse-sarjapur-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "New"
-    },
-    {
-      "name": "Tipsy Bull Brewhouse & Kitchen",
-      "url": "https://www.zomato.com/bangalore/tipsy-bull-brewhouse-kitchen-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
+      "name": "The Bench",
+      "url": "https://www.zomato.com/bangalore/the-bench-brookefield-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "New"
     },
     {
@@ -86,13 +41,8 @@
       "Ratings": "New"
     },
     {
-      "name": "Vanamo",
-      "url": "https://www.zomato.com/bangalore/vanamo-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "New"
-    },
-    {
-      "name": "Urban Dyne",
-      "url": "https://www.zomato.com/bangalore/urban-dyne-mahadevapura-bangalore?zrp_bid=0&zrp_pid=14",
+      "name": "Runway 27",
+      "url": "https://www.zomato.com/bangalore/runway-27-kadubeesanahalli-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "New"
     },
     {
@@ -101,13 +51,108 @@
       "Ratings": "New"
     },
     {
+      "name": "Botany Brew and Kitchen",
+      "url": "https://www.zomato.com/bangalore/botany-brew-and-kitchen-lavelle-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Los Cavos",
+      "url": "https://www.zomato.com/bangalore/los-cavos-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "The Coffee Brewery",
+      "url": "https://www.zomato.com/bangalore/the-coffee-brewery-malleshwaram-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Malnad Spicy",
+      "url": "https://www.zomato.com/bangalore/malnad-spicy-marathahalli-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Bootstrapped Cafe",
+      "url": "https://www.zomato.com/bangalore/bootstrapped-cafe-mg-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Tovo",
+      "url": "https://www.zomato.com/bangalore/tovo-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Frenzy Taproom | Lounge | Club",
+      "url": "https://www.zomato.com/bangalore/frenzy-taproom-lounge-club-marathahalli-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Si Nonna\u2019s - The Original Sourdough Pizza",
+      "url": "https://www.zomato.com/bangalore/si-nonnas-the-original-sourdough-pizza-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Biriyani Zone",
+      "url": "https://www.zomato.com/bangalore/biriyani-zone-2-sahakara-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Kopitiam Lah",
+      "url": "https://www.zomato.com/bangalore/kopitiam-lah-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Chin Lung Brewery",
+      "url": "https://www.zomato.com/bangalore/chin-lung-brewery-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Cooking Mum",
+      "url": "https://www.zomato.com/bangalore/cooking-mum-bellandur-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Tandoor Garden",
+      "url": "https://www.zomato.com/bangalore/tandoor-garden-rammurthy-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Tipsy Bull Brewhouse & Kitchen",
+      "url": "https://www.zomato.com/bangalore/tipsy-bull-brewhouse-kitchen-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Glen's Bakehouse",
+      "url": "https://www.zomato.com/bangalore/glens-bakehouse-sarjapur-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "3.5"
+    },
+    {
+      "name": "The Peck",
+      "url": "https://www.zomato.com/bangalore/the-peck-1-koramangala-8th-block-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
       "name": "Sharief Bhai",
       "url": "https://www.zomato.com/bangalore/sharief-bhai-nagarbhavi-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "New"
     },
     {
+      "name": "Vanamo",
+      "url": "https://www.zomato.com/bangalore/vanamo-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
       "name": "TINYTALIAN",
       "url": "https://www.zomato.com/bangalore/tinytalian-hsr-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "CR Tavern Bar & Kitchen",
+      "url": "https://www.zomato.com/bangalore/cr-tavern-bar-kitchen-domlur-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Kubo",
+      "url": "https://www.zomato.com/bangalore/kubo-1-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "New"
     }
   ]

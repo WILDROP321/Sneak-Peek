@@ -6,46 +6,6 @@
       "Ratings": "4.5"
     },
     {
-      "name": "Levels Pub & Kitchen",
-      "url": "https://www.zomato.com/bangalore/levels-pub-kitchen-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.5"
-    },
-    {
-      "name": "Bob's Bar",
-      "url": "https://www.zomato.com/bangalore/bobs-bar-1-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.1"
-    },
-    {
-      "name": "The Reservoire",
-      "url": "https://www.zomato.com/bangalore/the-reservoire-koramangala-5th-block?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.4"
-    },
-    {
-      "name": "Double Up - Hilton Embassy Manyata Business Park",
-      "url": "https://www.zomato.com/bangalore/double-up-hilton-embassy-manyata-business-park-nagawara-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "3.9"
-    },
-    {
-      "name": "Pecos Stones",
-      "url": "https://www.zomato.com/bangalore/pecos-stones-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.1"
-    },
-    {
-      "name": "Miso Sexy",
-      "url": "https://www.zomato.com/bangalore/miso-sexy-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.8"
-    },
-    {
-      "name": "The Soda Factory",
-      "url": "https://www.zomato.com/bangalore/the-soda-factory-nagarbhavi-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.3"
-    },
-    {
-      "name": "Gatsby",
-      "url": "https://www.zomato.com/bangalore/gatsby-bannerghatta-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.4"
-    },
-    {
       "name": "Jugni Kitchen & Bar",
       "url": "https://www.zomato.com/bangalore/jugni-kitchen-bar-koramangala-5th-block-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.4"
@@ -56,13 +16,63 @@
       "Ratings": "4.5"
     },
     {
-      "name": "Taproom By Sherlock's",
-      "url": "https://www.zomato.com/bangalore/taproom-by-sherlocks-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "name": "Sashay-Taproom Kitchen",
+      "url": "https://www.zomato.com/bangalore/sashay-taproom-kitchen-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.8"
+    },
+    {
+      "name": "The Soda Factory",
+      "url": "https://www.zomato.com/bangalore/the-soda-factory-nagarbhavi-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.3"
     },
     {
       "name": "Nevermind - Bar & Social",
       "url": "https://www.zomato.com/bangalore/nevermind-bar-social-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.1"
+    },
+    {
+      "name": "Boteco Restaurante Brasileiro",
+      "url": "https://www.zomato.com/bangalore/boteco-restaurante-brasileiro-1-mg-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
+      "name": "Secret Story",
+      "url": "https://www.zomato.com/bangalore/secret-story-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "3.9"
+    },
+    {
+      "name": "Magique",
+      "url": "https://www.zomato.com/bangalore/magique-koramangala-6th-block-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.0"
+    },
+    {
+      "name": "Oyster Bar & Kitchen",
+      "url": "https://www.zomato.com/bangalore/oyster-bar-kitchen-hsr-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "Sky Garden",
+      "url": "https://www.zomato.com/bangalore/sky-garden-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.1"
+    },
+    {
+      "name": "Double Up - Hilton Embassy Manyata Business Park",
+      "url": "https://www.zomato.com/bangalore/double-up-hilton-embassy-manyata-business-park-nagawara-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "3.9"
+    },
+    {
+      "name": "Miso Sexy",
+      "url": "https://www.zomato.com/bangalore/miso-sexy-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.8"
+    },
+    {
+      "name": "Taproom By Sherlock's",
+      "url": "https://www.zomato.com/bangalore/taproom-by-sherlocks-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "Bob's Bar",
+      "url": "https://www.zomato.com/bangalore/bobs-bar-1-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.1"
     },
     {
@@ -102,6 +112,36 @@
       "url": "https://www.zomato.com/bangalore/restaurants/beverages/"
     },
     {
+      "name": "Levels Pub & Kitchen",
+      "url": "https://www.zomato.com/bangalore/levels-pub-kitchen-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "Gatsby",
+      "url": "https://www.zomato.com/bangalore/gatsby-bannerghatta-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
+      "name": "Fenny's Lounge And Kitchen",
+      "url": "https://www.zomato.com/bangalore/fennys-lounge-and-kitchen-koramangala-7th-block?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "Pecos Stones",
+      "url": "https://www.zomato.com/bangalore/pecos-stones-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.1"
+    },
+    {
+      "name": "Mirage",
+      "url": "https://www.zomato.com/bangalore/mirage-st-marks-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
+    },
+    {
+      "name": "The Reservoire",
+      "url": "https://www.zomato.com/bangalore/the-reservoire-koramangala-5th-block?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
       "name": "Boho",
       "url": "https://www.zomato.com/bangalore/boho-brookefield-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.1"
@@ -110,46 +150,6 @@
       "name": "Daddy",
       "url": "https://www.zomato.com/bangalore/daddy-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.3"
-    },
-    {
-      "name": "Boteco Restaurante Brasileiro",
-      "url": "https://www.zomato.com/bangalore/boteco-restaurante-brasileiro-1-mg-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.4"
-    },
-    {
-      "name": "Oyster Bar & Kitchen",
-      "url": "https://www.zomato.com/bangalore/oyster-bar-kitchen-hsr-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.5"
-    },
-    {
-      "name": "Fenny's Lounge And Kitchen",
-      "url": "https://www.zomato.com/bangalore/fennys-lounge-and-kitchen-koramangala-7th-block?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.5"
-    },
-    {
-      "name": "Magique",
-      "url": "https://www.zomato.com/bangalore/magique-koramangala-6th-block-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.0"
-    },
-    {
-      "name": "Sashay-Taproom Kitchen",
-      "url": "https://www.zomato.com/bangalore/sashay-taproom-kitchen-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.8"
-    },
-    {
-      "name": "Sky Garden",
-      "url": "https://www.zomato.com/bangalore/sky-garden-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.1"
-    },
-    {
-      "name": "Secret Story",
-      "url": "https://www.zomato.com/bangalore/secret-story-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "3.9"
-    },
-    {
-      "name": "Mirage",
-      "url": "https://www.zomato.com/bangalore/mirage-st-marks-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.2"
     }
   ]
 }

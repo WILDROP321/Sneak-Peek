@@ -1,16 +1,16 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 import json
 import time
 import re
 
-# Path to your JSON file and ChromeDriver
-json_file_path = 'test.json'  # Update this path
-chrome_driver_path = 'chromedriver'  # Update this path
+# Path to your JSON file and Geckodriver
+json_file_path = 'DATA/process.json'  # Update this path
+geckodriver_path = 'geckodriver'  # Update this path if necessary
 
 def scroll_slowly(driver, scroll_pause_time=2, scroll_increment=300):
     """Scrolls the page slowly up and down to load all images."""
@@ -52,28 +52,43 @@ def get_image_sources(driver, url):
     driver.get(url)
     scroll_slowly(driver)
 
-    wait = WebDriverWait(driver, 40)
-    img_elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'img.sc-s1isp7-5.eisbVA')))
-    return [clean_image_url(img_element.get_attribute('src')) for img_element in img_elements]
+    wait = WebDriverWait(driver, 60)
+    driver.save_screenshot('screenshot.png')  # For debugging
+
+    try:
+        img_elements = wait.until(EC.visibility_of_all_elements_located((By.CSS_SELECTOR, 'img.sc-s1isp7-5.eisbVA')))
+        return [clean_image_url(img_element.get_attribute('src')) for img_element in img_elements]
+    except Exception as e:
+        print(f"Error finding images: {e}")
+        return []
 
 def get_feature_image(driver, url):
     driver.get(url)
+    
     wait = WebDriverWait(driver, 40)
-    feature_img_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'img.sc-s1isp7-5.eQUAyn')))
-    return clean_image_url(feature_img_element.get_attribute('src'))
+    
+    try:
+        feature_img_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'img.sc-s1isp7-5.eQUAyn')))
+        return clean_image_url(feature_img_element.get_attribute('src'))
+    except Exception as e:
+        print(f"Error finding feature image: {e}")
+        return ""
 
-def getImage(file):
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--window-size=1920,1080")  # Define a window size
-    service = Service(chrome_driver_path)
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+def getImage():
+    firefox_options = FirefoxOptions()
+    # Uncomment this line if Firefox is in a non-default location
+    # firefox_options.binary_location = "C:/Path/To/Your/Firefox/firefox.exe"
+    
+    # Optional: Run in GUI mode for debugging
+    firefox_options.headless = True
+    
+    service = Service(executable_path=geckodriver_path)
+    driver = webdriver.Firefox(service=service, options=firefox_options)
 
     try:
-        # with open(json_file_path, 'r') as file:
-        #     data = json.load(file)
-        data = file
+        with open(json_file_path, 'r') as file:
+            data = json.load(file)
+
         for key in data:
             for item in data[key]:
                 if 'url' in item:
@@ -82,7 +97,7 @@ def getImage(file):
 
                     image_sources = get_image_sources(driver, url)
                     feature_image = get_feature_image(driver, url)
-
+                    
                     if 'images' not in item:
                         item['images'] = []
                     item['images'].extend(image_sources)
@@ -96,3 +111,4 @@ def getImage(file):
     finally:
         driver.quit()
 
+getImage()

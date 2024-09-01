@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneak Peek - 001 01_September_2024 </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'TAN';
+    src: url('/static/font/TAN-NIMBUS.woff2') format('woff2'),
+        url('/static/font/TAN-NIMBUS.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General styles for the blog page */
+body {
+    background-color: rgb(15, 15, 15);
+    color: #F6E7D8;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "TAN";
+    position: relative;
+}
+
+.navbar-logo {
+    width: 100px;
+    height: 100px;
+    background-color: #F6E7D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.navbar-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 4rem;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #F6E7D8;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.navbar-links a:hover {
+    color: #ffffff;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .navbar-logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .navbar-links {
+            gap: 2rem;
+        }
+    .navbar-links a{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .navbar-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar-links {
+        gap: 1rem;
+    }
+
+    .navbar-links a {
+        font-size: 1rem;
+    }
+}
+
+h1 {
+    font-family: "TAN";
+    font-size: 5rem;
+}
+
+.container{
+    padding: 20px;
+}
+
+
+.article {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content {
+    border-left: 2px solid white;
+    border-radius: 10px;
+    width: 80%;
+    /* Adjust width as needed */
+    max-width: 800px;
+    /* Optional: Limit maximum width */
+    padding: 20px;
+    color: #e9d6c4;
+}
+
+.content h2 {
+    font-family: "TAN";
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-family: 'Lexend', serif;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #e9d8c7;
+}
+
+.content img {
+    display: block;
+    /* Remove inline space */
+    margin: 0 auto;
+    /* Center the image horizontally */
+    max-width: 100%;
+    /* Make sure the image is responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    text-decoration: none;
+    background-color: rgb(74, 185, 74);
+    font-family: "TAN";
+    padding: 5px;
+    border-radius: 2px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#details{
+    color: #6c6c6e;
+    
+}
+</style>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="/home"><img src="/static/Images/1.png" alt="Logo"></a>
+            <!-- Replace with the path to your logo image -->
+        </div>
+        <div class="navbar-center">
+            <div class="navbar-links">
+                <a href="/about">About</a>
+                <a href="/home">Home</a>
+                <a href="/blogs">Blogs</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="article">
+        <div class="content">
+
+            <div class="section">
+                <img src="https://b.zmtcdn.com/data/pictures/2/51552/dd97f3bfba0a4c7ea0b2ce93c4225764.jpg" alt="">
+                <h2>Skyye</h2>
+                <p id="details">4.3</p>
+                <p>Indulge in culinary artistry at Skyye, a rooftop haven boasting panoramic city views. With a 4.3-star rating, this upscale restaurant offers an exquisite menu featuring modern European cuisine crafted with seasonal ingredients. Savor delectable dishes while sipping on handcrafted cocktails, all amidst a chic and sophisticated ambiance. Skyye is the perfect destination for a romantic evening, a special celebration, or an unforgettable dining experience.</p>
+                <a href="https://www.zomato.com/bangalore/skyye-lavelle-road?zrp_bid=0&zrp_pid=14"><button>Visit</button></a>
+            </div>
+
+            <!-- Trending Section -->
+            <div class="section">
+                <img src="https://b.zmtcdn.com/data/pictures/6/18162866/bd78ac6f7f6cb509c35565b6261fd342.jpg" alt="">
+                <h2>Three Dots & A Dash</h2>
+                <p id="details">4.3</p>
+                <p>Nestled in the heart of Indiranagar, Three Dots & A Dash is a vibrant and stylish restaurant that has quickly become a popular destination in Bangalore. With a rating of 4.3, it offers a delectable fusion menu that combines global flavors with local ingredients. The ambiance is chic and inviting, featuring a spacious dining area, a cozy bar, and a charming outdoor patio. Whether you're looking for a romantic dinner, a lively brunch, or a night out with friends, Three Dots & A Dash is sure to impress.</p>
+                <a href="https://www.zomato.com/bangalore/three-dots-a-dash-jp-nagar?zrp_bid=0&zrp_pid=14"><button>Visit</button></a>
+            </div>
+        
+            <!-- New In Town Section -->
+            <div class="section">
+                <img src="https://b.zmtcdn.com/data/pictures/2/21353232/b86dfee243e44b35f5cd94bc3f21901c.jpg" alt="">
+                <h2>Kopitiam Lah</h2>
+                <p id="details">New</p>
+                <p>Kopitiam Lah is a newly opened restaurant in Bangalore that serves authentic Malaysian cuisine. The menu features a wide variety of dishes, from classic favorites like nasi lemak and roti canai to more modern creations like the pulled pork burger. The food is delicious and the service is friendly and efficient. The restaurant is located in a convenient location in the heart of the city, making it easy to get to. Overall, Kopitiam Lah is a great place to enjoy a taste of Malaysia in Bangalore.
+
+Rating: New</p>
+                <a href="https://www.zomato.com/bangalore/kopitiam-lah-indiranagar-bangalore?zrp_bid=0&zrp_pid=14"><button>Visit</button></a>
+            </div>
+        
+            <!-- Date Section -->
+            <div class="section">
+                <img src="https://b.zmtcdn.com/data/pictures/2/20810972/5d38d7c4be3684a8509442d91b38abf7.jpg" alt="">
+                <h2>2 MOONS</h2>
+                <p id="details">4.4</p>
+                <p>Escape into the enchanting ambiance of 2 MOONS, a romantic haven where love blossoms under the celestial glow of two moons. With a 4.4-star rating, this intimate sanctuary offers an exquisite culinary journey that tantalizes the taste buds and sets the stage for unforgettable moments. Dim lighting, soft music, and elegant décor create an atmosphere that whispers romance, making it the perfect destination for couples seeking a truly magical dining experience.</p>
+                <a href="https://www.zomato.com/bangalore/2-moons-mg-road-bangalore?zrp_bid=0&zrp_pid=14"><button>Visit</button></a>
+            </div>
+        
+            <!-- Events Section -->
+            <div class="section">
+                <img src="https://b.zmtcdn.com/data/pictures/6/19001666/760e59624a7a37539f6474438e4b20fa.jpg" alt="">
+                <h2>Aurum Brew Works</h2>
+                <p id="details">4.3</p>
+                <p>Aurum Brew Works, a microbrewery in Bangalore, is a haven for beer enthusiasts. With a rating of 4.3, it offers a wide selection of handcrafted beers, from classic lagers to experimental IPAs. The cozy ambiance and knowledgeable staff create a welcoming atmosphere, making it a perfect spot to unwind and savor the flavors of craft beer.</p>
+                <a href="https://www.zomato.com/bangalore/aurum-brew-works-sarjapur-road-bangalore?zrp_bid=0&zrp_pid=14"><button>Visit</button></a>
+            </div>
+        
+            <!-- Cafe Section -->
+            <div class="section">
+                <img src="https://b.zmtcdn.com/data/pictures/8/21087448/d5fba3b79468524d514a396626f11c95.jpg" alt="">
+                <h2>Toca Terrace</h2>
+                <p id="details">4.1</p>
+                <p>Toca Terrace is a cozy and inviting cafe that offers a delightful dining experience. With a rating of 4.1, it has earned the appreciation of many patrons. The cafe boasts a warm and welcoming ambiance, perfect for catching up with friends or enjoying a quiet moment with a good book. The menu features a tempting array of freshly brewed coffee, aromatic teas, and delectable pastries. Whether you're looking for a quick bite or a leisurely afternoon treat, Toca Terrace is the perfect destination.</p>
+                <a href="https://www.zomato.com/bangalore/toca-terrace-brigade-road-bangalore?zrp_bid=0&zrp_pid=14"><button>Visit</button></a>
+            </div>
+        
+            <!-- Pub and Bar Section -->
+            <div class="section">
+                <img src="https://b.zmtcdn.com/data/pictures/2/18888512/cc24ded2ac08e614b5b66f01c1a63ca1.jpg" alt="">
+                <h2>Nevermind - Bar & Social</h2>
+                <p id="details">4.1</p>
+                <p>Nevermind - Bar & Social is a lively and welcoming pub with a 4.1-star rating. It offers a wide selection of drinks, including craft beers, cocktails, and wines. The atmosphere is relaxed and friendly, with live music and DJs on weekends. The pub also has a spacious outdoor area, perfect for enjoying a drink in the sun.</p>
+                <a href="https://www.zomato.com/bangalore/nevermind-bar-social-indiranagar-bangalore?zrp_bid=0&zrp_pid=14"><button>Visit</button></a>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // GSAP animations
+            gsap.from('.navbar', { opacity: 0, y: -50, duration: 1, ease: 'power3.out' });
+            gsap.from('.section', { opacity: 0, y: 30, duration: 1, delay: 0.5, ease: 'power3.out' });
+            gsap.from('.article', { opacity: 0, y: 30, duration: 1, delay: 1, ease: 'power3.out' });
+            gsap.from('.article img', { opacity: 0, scale: 1.1, duration: 1, delay: 1.5, ease: 'power3.out' });
+        });
+
+        // Button hover animation
+        gsap.fromTo("button",
+            { scale: 1 },
+            { scale: 1.1, duration: 0.8, repeat: -1, yoyo: true, ease: "power1.inOut" }
+        );
+    </script>
+</html>

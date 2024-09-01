@@ -1,23 +1,279 @@
 {
   "Place": [
     {
-      "name": "Hotel Tom's Restaurant",
-      "url": "https://www.zomato.com/bangalore/hotel-toms-restaurant-brigade-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.6"
+      "name": "BLR Brewing Co.",
+      "url": "https://www.zomato.com/bangalore/restaurants/blr-brewing-co-2?zrp_bid=0&zrp_pid=14"
     },
     {
-      "name": "Lakeview Milkbar \u2014 Since 1930",
-      "url": "https://www.zomato.com/bangalore/lakeview-milkbar-since-1930-mg-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "3.5"
+      "name": "North Indian",
+      "url": "https://www.zomato.com/bangalore/restaurants/north-indian/"
     },
     {
-      "name": "Nagarjuna - Since 1984",
-      "url": "https://www.zomato.com/bangalore/nagarjuna-since-1984-residency-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "name": "BBQ",
+      "url": "https://www.zomato.com/bangalore/restaurants/bbq/"
+    },
+    {
+      "name": "Italian",
+      "url": "https://www.zomato.com/bangalore/restaurants/italian/"
+    },
+    {
+      "name": "Continental",
+      "url": "https://www.zomato.com/bangalore/restaurants/continental/"
+    },
+    {
+      "name": "Chinese",
+      "url": "https://www.zomato.com/bangalore/restaurants/chinese/"
+    },
+    {
+      "name": "Asian",
+      "url": "https://www.zomato.com/bangalore/restaurants/asian/"
+    },
+    {
+      "name": "Bar Food",
+      "url": "https://www.zomato.com/bangalore/restaurants/bar-food/"
+    },
+    {
+      "name": "Desserts",
+      "url": "https://www.zomato.com/bangalore/restaurants/desserts/"
+    },
+    {
+      "name": "Big Barrel BrewPub",
+      "url": "https://www.zomato.com/bangalore/big-barrel-brewpub-rajarajeshwari-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
+    },
+    {
+      "name": "Roxie",
+      "url": "https://www.zomato.com/bangalore/roxie-sarjapur-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "Candles Brewhouse",
+      "url": "https://www.zomato.com/bangalore/candles-brewhouse-hebbal-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
+    },
+    {
+      "name": "Layla - The Den Bengaluru",
+      "url": "https://www.zomato.com/bangalore/layla-the-den-bengaluru-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.0"
+    },
+    {
+      "name": "JULIET",
+      "url": "https://www.zomato.com/bangalore/juliet-mg-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
+    },
+    {
+      "name": "Ebony",
+      "url": "https://www.zomato.com/bangalore/ebony-mg-road?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
+    },
+    {
+      "name": "Mykos Craft Kitchen & Bar",
+      "url": "https://www.zomato.com/bangalore/mykos-craft-kitchen-bar-bannerghatta-road-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.3"
     },
     {
-      "name": "Shivaji Military Hotel - Since 1935",
-      "url": "https://www.zomato.com/bangalore/shivaji-military-hotel-since-1935-jayanagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "name": "ShakesBierre",
+      "url": "https://www.zomato.com/bangalore/shakesbierre-1-brigade-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
+      "name": "Cafe Azzure",
+      "url": "https://www.zomato.com/bangalore/cafe-azzure-yelahanka-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.1"
+    },
+    {
+      "name": "Skyye",
+      "url": "https://www.zomato.com/bangalore/skyye-lavelle-road?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "Brooks And Bonds Brewery",
+      "url": "https://www.zomato.com/bangalore/brooks-and-bonds-brewery-koramangala-5th-block-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.1"
+    },
+    {
+      "name": "Pangeo",
+      "url": "https://www.zomato.com/bangalore/pangeo-brigade-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "Secret Story",
+      "url": "https://www.zomato.com/bangalore/secret-story-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "3.9"
+    },
+    {
+      "name": "1131 Bar + Kitchen By House Of Commons",
+      "url": "https://www.zomato.com/bangalore/1131-bar-kitchen-by-house-of-commons-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "Aurum Brew Works",
+      "url": "https://www.zomato.com/bangalore/aurum-brew-works-sarjapur-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "High Ultra Lounge - Sheraton Grand Bangalore Hotel",
+      "url": "https://www.zomato.com/bangalore/high-ultra-lounge-sheraton-grand-bangalore-hotel-malleshwaram-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "Bang - The Ritz-Carlton",
+      "url": "https://www.zomato.com/bangalore/bang-the-ritz-carlton-residency-road?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "Hungry Hippie",
+      "url": "https://www.zomato.com/bangalore/hungry-hippie-koramangala-5th-block?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
+    },
+    {
+      "name": "TBC- Sky Lounge",
+      "url": "https://www.zomato.com/bangalore/tbc-sky-lounge-kadubeesanahalli-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "Bangalore Brew Works",
+      "url": "https://www.zomato.com/bangalore/bangalore-brew-works-residency-road?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.1"
+    },
+    {
+      "name": "Big Pitcher",
+      "url": "https://www.zomato.com/bangalore/big-pitcher-airport-road?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "The Pizza Bakery",
+      "url": "https://www.zomato.com/bangalore/the-pizza-bakery-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "Mirage",
+      "url": "https://www.zomato.com/bangalore/mirage-st-marks-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
+    },
+    {
+      "name": "Sherlock's - Lounge & Kitchen",
+      "url": "https://www.zomato.com/bangalore/sherlocks-lounge-kitchen-yelahanka-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.1"
+    },
+    {
+      "name": "Salvadores",
+      "url": "https://www.zomato.com/bangalore/salvadores-mg-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.6"
+    },
+    {
+      "name": "Stories Brewery & Kitchen",
+      "url": "https://www.zomato.com/bangalore/stories-brewery-kitchen-btm-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "Red Rhino",
+      "url": "https://www.zomato.com/bangalore/red-rhino-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
+      "name": "Chavadi",
+      "url": "https://www.zomato.com/bangalore/chavadi-bannerghatta-road?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "Terrace By House Of Commons",
+      "url": "https://www.zomato.com/bangalore/terrace-by-house-of-commons-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.6"
+    },
+    {
+      "name": "Kaz\u00e9",
+      "url": "https://www.zomato.com/bangalore/kaz%C3%A9-1-lavelle-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "New"
+    },
+    {
+      "name": "Prequel",
+      "url": "https://www.zomato.com/bangalore/prequel-3-hebbal-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "Miso Sexy",
+      "url": "https://www.zomato.com/bangalore/miso-sexy-indiranagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.8"
+    },
+    {
+      "name": "Broadway - The Gourmet Theatre",
+      "url": "https://www.zomato.com/bangalore/broadway-the-gourmet-theatre-hsr?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "TYD",
+      "url": "https://www.zomato.com/bangalore/tyd-1-hennur-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "The Terrace at Gilly's Redefined",
+      "url": "https://www.zomato.com/bangalore/the-terrace-at-gillys-redefined-koramangala-4th-block?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
+      "name": "Alchemy",
+      "url": "https://www.zomato.com/bangalore/alchemy-residency-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
+    },
+    {
+      "name": "House Of Commons",
+      "url": "https://www.zomato.com/bangalore/house-of-commons-1-kalyan-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
+      "name": "Omega IX Cocktail Bar And Global Kitchen",
+      "url": "https://www.zomato.com/bangalore/omega-ix-cocktail-bar-and-global-kitchen-sahakara-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
+    },
+    {
+      "name": "Koramangala SOCIAL",
+      "url": "https://www.zomato.com/koramangalasocial?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
+      "name": "The Peak",
+      "url": "https://www.zomato.com/bangalore/the-peak-2-sahakara-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "Pecos Hideout",
+      "url": "https://www.zomato.com/bangalore/pecos-hideout-koramangala-5th-block-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.1"
+    },
+    {
+      "name": "Sky Garden",
+      "url": "https://www.zomato.com/bangalore/sky-garden-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.1"
+    },
+    {
+      "name": "Magique",
+      "url": "https://www.zomato.com/bangalore/magique-koramangala-6th-block-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.0"
+    },
+    {
+      "name": "Biergarten",
+      "url": "https://www.zomato.com/bangalore/biergarten-whitefield?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.6"
+    },
+    {
+      "name": "The Lotus Oriental - The Leela Bhartiya City",
+      "url": "https://www.zomato.com/bangalore/the-lotus-oriental-the-leela-bhartiya-city-jakkur-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
+    },
+    {
+      "name": "Skyline Rooftop Bar & Kitchen",
+      "url": "https://www.zomato.com/bangalore/skyline-rooftop-bar-kitchen-marathahalli-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "KOKO",
+      "url": "https://www.zomato.com/bangalore/koko-airport-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "1522 - The Pub",
+      "url": "https://www.zomato.com/bangalore/1522-the-pub-new-bel-road?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.1"
     },
     {
@@ -26,79 +282,9 @@
       "Ratings": "4.3"
     },
     {
-      "name": "Koshy's",
-      "url": "https://www.zomato.com/bangalore/koshys-st-marks-road?zrp_bid=0&zrp_pid=14",
-      "Ratings": "3.3"
-    },
-    {
-      "name": "MTR 1924",
-      "url": "https://www.zomato.com/bangalore/mtr-1924-st-marks-road?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.2"
-    },
-    {
-      "name": "New Modern Hotel",
-      "url": "https://www.zomato.com/bangalore/new-modern-hotel-basavanagudi?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.4"
-    },
-    {
-      "name": "ASEAN - On The Edge",
-      "url": "https://www.zomato.com/bangalore/asean-on-the-edge-mg-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.3"
-    },
-    {
-      "name": "The Only Place",
-      "url": "https://www.zomato.com/bangalore/the-only-place-church-street?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.0"
-    },
-    {
-      "name": "Sathya's",
-      "url": "https://www.zomato.com/bangalore/sathyas-koramangala-3rd-block?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.1"
-    },
-    {
-      "name": "Ebony",
-      "url": "https://www.zomato.com/bangalore/ebony-mg-road?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.2"
-    },
-    {
-      "name": "Brahmin's Coffee Bar",
-      "url": "https://www.zomato.com/bangalore/brahmins-coffee-bar-basavanagudi?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.7"
-    },
-    {
-      "name": "Corner House Ice Creams",
-      "url": "https://www.zomato.com/bangalore/corner-house-ice-creams-residency-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "name": "Oyster Bar & Kitchen",
+      "url": "https://www.zomato.com/bangalore/oyster-bar-kitchen-hsr-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.5"
-    },
-    {
-      "name": "Indian Coffee House",
-      "url": "https://www.zomato.com/bangalore/indian-coffee-house-church-street?zrp_bid=0&zrp_pid=14",
-      "Ratings": "3.5"
-    },
-    {
-      "name": "Nandhana Palace",
-      "url": "https://www.zomato.com/bangalore/nandhana-palace-kammanahalli?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.1"
-    },
-    {
-      "name": "Airlines Hotel",
-      "url": "https://www.zomato.com/bangalore/airlines-hotel-lavelle-road?zrp_bid=0&zrp_pid=14",
-      "Ratings": "3.4"
-    },
-    {
-      "name": "Pecos",
-      "url": "https://www.zomato.com/bangalore/pecos-brigade-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.2"
-    },
-    {
-      "name": "Sunny's",
-      "url": "https://www.zomato.com/bangalore/sunnys-1-lavelle-road?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.0"
-    },
-    {
-      "name": "Vidyarthi Bhavan - Since 1943",
-      "url": "https://www.zomato.com/bangalore/vidyarthi-bhavan-since-1943-basavanagudi-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.3"
     }
   ]
 }

@@ -1,124 +1,8 @@
 {
   "Place": [
     {
-      "name": "BLR Brewing Co.",
-      "url": "https://www.zomato.com/bangalore/restaurants/blr-brewing-co-2?zrp_bid=0&zrp_pid=14"
-    },
-    {
-      "name": "North Indian",
-      "url": "https://www.zomato.com/bangalore/restaurants/north-indian/"
-    },
-    {
-      "name": "BBQ",
-      "url": "https://www.zomato.com/bangalore/restaurants/bbq/"
-    },
-    {
-      "name": "Italian",
-      "url": "https://www.zomato.com/bangalore/restaurants/italian/"
-    },
-    {
-      "name": "Continental",
-      "url": "https://www.zomato.com/bangalore/restaurants/continental/"
-    },
-    {
-      "name": "Chinese",
-      "url": "https://www.zomato.com/bangalore/restaurants/chinese/"
-    },
-    {
-      "name": "Asian",
-      "url": "https://www.zomato.com/bangalore/restaurants/asian/"
-    },
-    {
-      "name": "Bar Food",
-      "url": "https://www.zomato.com/bangalore/restaurants/bar-food/"
-    },
-    {
-      "name": "Desserts",
-      "url": "https://www.zomato.com/bangalore/restaurants/desserts/"
-    },
-    {
-      "name": "Ironhill Bengaluru",
-      "url": "https://www.zomato.com/bangalore/ironhill-bengaluru-marathahalli-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.5"
-    },
-    {
-      "name": "The Druid Garden",
-      "url": "https://www.zomato.com/bangalore/the-druid-garden-sahakara-nagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.2"
-    },
-    {
-      "name": "We: Neighborhood",
-      "url": "https://www.zomato.com/bangalore/we-neighborhood-banaswadi-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.5"
-    },
-    {
-      "name": "Stories Brewery & Kitchen",
-      "url": "https://www.zomato.com/bangalore/stories-brewery-kitchen-btm-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.5"
-    },
-    {
-      "name": "Gold Rush Brews",
-      "url": "https://www.zomato.com/bangalore/gold-rush-brews-kr-puram-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.4"
-    },
-    {
-      "name": "Aurum Brew Works",
-      "url": "https://www.zomato.com/bangalore/aurum-brew-works-sarjapur-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.3"
-    },
-    {
-      "name": "Roxie",
-      "url": "https://www.zomato.com/bangalore/roxie-sarjapur-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.5"
-    },
-    {
-      "name": "Red Rhino",
-      "url": "https://www.zomato.com/bangalore/red-rhino-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.4"
-    },
-    {
-      "name": "Uru Brewpark",
-      "url": "https://www.zomato.com/bangalore/uru-brewpark-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.3"
-    },
-    {
-      "name": "Geist Brewing Co.",
-      "url": "https://www.zomato.com/bangalore/geist-brewing-co-old-madras-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.3"
-    },
-    {
-      "name": "Biergarten",
-      "url": "https://www.zomato.com/bangalore/biergarten-koramangala-5th-block?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.6"
-    },
-    {
-      "name": "XOOX Brewmill",
-      "url": "https://www.zomato.com/bangalore/xoox-brewmill-koramangala-5th-block-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.3"
-    },
-    {
-      "name": "Windmills",
-      "url": "https://www.zomato.com/bangalore/windmills-1-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.8"
-    },
-    {
-      "name": "The Pump House",
-      "url": "https://www.zomato.com/bangalore/the-pump-house-1-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.4"
-    },
-    {
       "name": "Brahma Brews",
       "url": "https://www.zomato.com/bangalore/brahma-brews-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.5"
-    },
-    {
-      "name": "Indian Biere House",
-      "url": "https://www.zomato.com/bangalore/indian-biere-house-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.5"
-    },
-    {
-      "name": "Peepai",
-      "url": "https://www.zomato.com/bangalore/peepai-3-hebbal-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.5"
     },
     {
@@ -158,29 +42,39 @@
       "url": "https://www.zomato.com/bangalore/restaurants/desserts/"
     },
     {
+      "name": "Windmills",
+      "url": "https://www.zomato.com/bangalore/windmills-1-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.8"
+    },
+    {
       "name": "The Biere Club",
       "url": "https://www.zomato.com/bangalore/the-biere-club-lavelle-road-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.2"
     },
     {
-      "name": "Toit",
-      "url": "https://www.zomato.com/bangalore/toit-indiranagar?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.9"
+      "name": "Candles Brewhouse",
+      "url": "https://www.zomato.com/bangalore/candles-brewhouse-hebbal-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
     },
     {
-      "name": "Arbor Brewing Company",
-      "url": "https://www.zomato.com/ArborBrewIndia?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.6"
+      "name": "XOOX Brewmill",
+      "url": "https://www.zomato.com/bangalore/xoox-brewmill-koramangala-5th-block-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
     },
     {
-      "name": "Communiti",
-      "url": "https://www.zomato.com/bangalore/communiti-brigade-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "name": "Indian Biere House",
+      "url": "https://www.zomato.com/bangalore/indian-biere-house-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "Float Brewery",
+      "url": "https://www.zomato.com/bangalore/float-brewery-kalyan-nagar-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.4"
     },
     {
-      "name": "ShakesBierre",
-      "url": "https://www.zomato.com/bangalore/shakesbierre-1-brigade-road-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.4"
+      "name": "Ironhill Bengaluru",
+      "url": "https://www.zomato.com/bangalore/ironhill-bengaluru-marathahalli-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
     },
     {
       "name": "Hops Haus Taproom",
@@ -188,19 +82,125 @@
       "Ratings": "4.3"
     },
     {
+      "name": "Roxie",
+      "url": "https://www.zomato.com/bangalore/roxie-sarjapur-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "We: Neighborhood",
+      "url": "https://www.zomato.com/bangalore/we-neighborhood-banaswadi-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "Stories Brewery & Kitchen",
+      "url": "https://www.zomato.com/bangalore/stories-brewery-kitchen-btm-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "The Pump House",
+      "url": "https://www.zomato.com/bangalore/the-pump-house-1-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
+      "name": "Gold Rush Brews",
+      "url": "https://www.zomato.com/bangalore/gold-rush-brews-kr-puram-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
+      "name": "Peepai",
+      "url": "https://www.zomato.com/bangalore/peepai-3-hebbal-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
+    },
+    {
+      "name": "ShakesBierre",
+      "url": "https://www.zomato.com/bangalore/shakesbierre-1-brigade-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
       "name": "The Bier Library",
       "url": "https://www.zomato.com/bangalore/the-bier-library-koramangala-6th-block-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.5"
     },
     {
-      "name": "Candles Brewhouse",
-      "url": "https://www.zomato.com/bangalore/candles-brewhouse-hebbal-bangalore?zrp_bid=0&zrp_pid=14",
+      "name": "Red Rhino",
+      "url": "https://www.zomato.com/bangalore/red-rhino-whitefield-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.4"
+    },
+    {
+      "name": "The Druid Garden",
+      "url": "https://www.zomato.com/bangalore/the-druid-garden-sahakara-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.2"
+    },
+    {
+      "name": "Aurum Brew Works",
+      "url": "https://www.zomato.com/bangalore/aurum-brew-works-sarjapur-road-bangalore?zrp_bid=0&zrp_pid=14",
       "Ratings": "4.3"
     },
     {
-      "name": "Float Brewery",
-      "url": "https://www.zomato.com/bangalore/float-brewery-kalyan-nagar-bangalore?zrp_bid=0&zrp_pid=14",
-      "Ratings": "4.4"
+      "name": "BLR Brewing Co.",
+      "url": "https://www.zomato.com/bangalore/restaurants/blr-brewing-co-2?zrp_bid=0&zrp_pid=14"
+    },
+    {
+      "name": "North Indian",
+      "url": "https://www.zomato.com/bangalore/restaurants/north-indian/"
+    },
+    {
+      "name": "BBQ",
+      "url": "https://www.zomato.com/bangalore/restaurants/bbq/"
+    },
+    {
+      "name": "Italian",
+      "url": "https://www.zomato.com/bangalore/restaurants/italian/"
+    },
+    {
+      "name": "Continental",
+      "url": "https://www.zomato.com/bangalore/restaurants/continental/"
+    },
+    {
+      "name": "Chinese",
+      "url": "https://www.zomato.com/bangalore/restaurants/chinese/"
+    },
+    {
+      "name": "Asian",
+      "url": "https://www.zomato.com/bangalore/restaurants/asian/"
+    },
+    {
+      "name": "Bar Food",
+      "url": "https://www.zomato.com/bangalore/restaurants/bar-food/"
+    },
+    {
+      "name": "Desserts",
+      "url": "https://www.zomato.com/bangalore/restaurants/desserts/"
+    },
+    {
+      "name": "Arbor Brewing Company",
+      "url": "https://www.zomato.com/ArborBrewIndia?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.6"
+    },
+    {
+      "name": "Uru Brewpark",
+      "url": "https://www.zomato.com/bangalore/uru-brewpark-jp-nagar-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "Geist Brewing Co.",
+      "url": "https://www.zomato.com/bangalore/geist-brewing-co-old-madras-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.3"
+    },
+    {
+      "name": "Toit",
+      "url": "https://www.zomato.com/bangalore/toit-indiranagar?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.9"
+    },
+    {
+      "name": "Biergarten",
+      "url": "https://www.zomato.com/bangalore/biergarten-koramangala-5th-block?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.6"
+    },
+    {
+      "name": "Communiti",
+      "url": "https://www.zomato.com/bangalore/communiti-brigade-road-bangalore?zrp_bid=0&zrp_pid=14",
+      "Ratings": "4.5"
     }
   ]
 }
