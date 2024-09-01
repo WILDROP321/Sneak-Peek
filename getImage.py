@@ -11,7 +11,7 @@ import re
 
 # Path to your JSON file and Geckodriver
 json_file_path = 'DATA/process.json'  # Update this path
-geckodriver_path = 'geckodriver'  # Update this path if necessary
+geckodriver_path = '/usr/local/bin/geckodriver'  # Update this path if necessary
 
 def scroll_slowly(driver, scroll_pause_time=2, scroll_increment=300):
     """Scrolls the page slowly up and down to load all images."""
