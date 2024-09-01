@@ -13,11 +13,6 @@ import os
 json_file_path = 'DATA/process.json'  # Update this path
 chrome_driver_path = '/usr/local/bin/chromedriver'  # Update this path
 
-def start_xvfb():
-    """Start Xvfb in the background."""
-    os.system('Xvfb :99 -screen 0 1920x1080x24 &')
-    os.environ['DISPLAY'] = ':99'
-
 def scroll_slowly(driver, scroll_pause_time=2, scroll_increment=300):
     """Scrolls the page slowly up and down to load all images."""
     # Scroll down slowly
@@ -82,12 +77,11 @@ def get_feature_image(driver, url):
     return clean_image_url(feature_img_element.get_attribute('src'))
 
 def getImage():
-    # Start Xvfb
-    start_xvfb()
-
     # Initialize WebDriver
     chrome_options = Options()
     chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
+    chrome_options.add_argument("--no-sandbox")  # Additional option to avoid issues
+    chrome_options.add_argument("--disable-dev-shm-usage")  # Workaround for limited resources
     service = Service(chrome_driver_path)
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
@@ -128,3 +122,4 @@ def getImage():
         driver.quit()
 
 
+#this is updated
