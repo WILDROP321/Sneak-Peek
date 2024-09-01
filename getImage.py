@@ -27,21 +27,6 @@ def stop_vnc_server():
     """Stop the VNC server."""
     subprocess.run(['vncserver', '-kill', ':1'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-def download_chromedriver(version):
-    """Download and install ChromeDriver."""
-    url = f'https://chromedriver.storage.googleapis.com/{version}/chromedriver_linux64.zip'
-    response = requests.get(url)
-    zip_path = '/tmp/chromedriver_linux64.zip'
-    with open(zip_path, 'wb') as file:
-        file.write(response.content)
-    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-        zip_ref.extractall('/usr/local/bin')
-    os.remove(zip_path)
-
-def get_latest_chromedriver_version():
-    """Get the latest ChromeDriver version."""
-    response = requests.get('https://chromedriver.storage.googleapis.com/LATEST_RELEASE')
-    return response.text.strip()
 
 def scroll_slowly(driver, scroll_pause_time=2, scroll_increment=300):
     """Scrolls the page slowly up and down to load all images."""
@@ -94,10 +79,6 @@ def get_feature_image(driver, url):
 def getImage():
     # Start VNC server and set DISPLAY
     start_vnc_server()
-
-    # Download and set up ChromeDriver
-    version = get_latest_chromedriver_version()
-    download_chromedriver(version)
 
     # Initialize WebDriver
     chrome_options = Options()
