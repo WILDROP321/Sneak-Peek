@@ -4,8 +4,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options as ChromeOptions
-from webdriver_manager.chrome import ChromeDriverManager
-from pyvirtualdisplay import Display
 import json
 import time
 import re
@@ -78,15 +76,13 @@ def get_feature_image(driver, url):
 
 def getImage():
     # Start a virtual display
-    display = Display(visible=0, size=(1024, 768))
-    display.start()
-
     chrome_options = ChromeOptions()
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-dev-shm-usage')
 
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    service = Service(chromedriver_path)
+    driver = webdriver.Chrome(service=service, options=chrome_options)
 
     try:
         with open(json_file_path, 'r') as file:
@@ -113,7 +109,5 @@ def getImage():
 
     finally:
         driver.quit()
-        display.stop()  # Stop the virtual display
 
-# Call the function to execute
-getImage()
+
