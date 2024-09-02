@@ -2,16 +2,17 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.firefox.service import Service
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options as ChromeOptions
+from webdriver_manager.chrome import ChromeDriverManager
 from pyvirtualdisplay import Display
 import json
 import time
 import re
 
-# Path to your JSON file and Geckodriver
+# Path to your JSON file and Chromedriver
 json_file_path = 'DATA/process.json'  # Update this path
-geckodriver_path = '/usr/local/bin/geckodriver'  # Update this path if necessary
+chromedriver_path = '/usr/local/bin/chromedriver'  # Update this path if necessary
 
 def scroll_slowly(driver, scroll_pause_time=2, scroll_increment=300):
     """Scrolls the page slowly up and down to load all images."""
@@ -80,11 +81,12 @@ def getImage():
     display = Display(visible=0, size=(1024, 768))
     display.start()
 
-    firefox_options = FirefoxOptions()
-    firefox_options.headless = True  # Run in headless mode
+    chrome_options = ChromeOptions()
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--disable-dev-shm-usage')
 
-    service = Service(executable_path=geckodriver_path)
-    driver = webdriver.Firefox(service=service, options=firefox_options)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
     try:
         with open(json_file_path, 'r') as file:
@@ -112,3 +114,6 @@ def getImage():
     finally:
         driver.quit()
         display.stop()  # Stop the virtual display
+
+# Call the function to execute
+getImage()
